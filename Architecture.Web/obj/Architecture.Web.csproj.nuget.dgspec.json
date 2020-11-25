@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Web\\Architecture.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj",
+        "projectName": "Architecture.Common",
+        "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj",
+        "packagesPath": "C:\\Users\\Beyondsy\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Beyondsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\Architecture.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\Architecture.Core.csproj",
+        "projectName": "Architecture.Core",
+        "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\Architecture.Core.csproj",
+        "packagesPath": "C:\\Users\\Beyondsy\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Beyondsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj": {
+                "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj"
+              },
+              "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\Architecture.Data.csproj": {
+                "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\Architecture.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "NPoco.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\Architecture.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\Architecture.Data.csproj",
+        "projectName": "Architecture.Data",
+        "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\Architecture.Data.csproj",
+        "packagesPath": "C:\\Users\\Beyondsy\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Beyondsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj": {
+                "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Common\\Architecture.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NPoco": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Web\\Architecture.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Web\\Architecture.Web.csproj",
+        "projectName": "Architecture.Web",
+        "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Web\\Architecture.Web.csproj",
+        "packagesPath": "C:\\Users\\Beyondsy\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Beyondsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\Architecture.Core.csproj": {
+                "projectPath": "D:\\My Projects\\Github Projects\\WebAPI With NPoco\\Architecture.Core\\Architecture.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
